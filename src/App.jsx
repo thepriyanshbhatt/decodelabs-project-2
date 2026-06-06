@@ -22,8 +22,9 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer style={{ marginTop: '4rem', color: 'var(--text-secondary)', fontSize: '0.9rem', textAlign: 'center' }}>
+      <footer style={{ marginTop: '4rem', color: 'var(--text-secondary)', fontSize: '0.9rem', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
         <p>Built for DecodeLabs Cybersecurity Training.</p>
+        <p style={{ color: 'var(--accent-blue)', opacity: 0.8 }}>Built with ❤️ by Priyansh Bhatt</p>
       </footer>
     </div>
   );
