@@ -8,7 +8,7 @@ function App() {
       
       {/* Header */}
       <header style={{ textAlign: 'center', marginBottom: '3rem' }}>
-        <h1 className="animate-fade-in">Project 2: Encryption & Decryption</h1>
+        <h1 className="animate-fade-in">Encryption Application</h1>
         <p className="subtitle animate-fade-in" style={{ animationDelay: '0.2s', opacity: 0, animationFillMode: 'forwards' }}>
           Secure your data with classic cryptography techniques.
         </p>
